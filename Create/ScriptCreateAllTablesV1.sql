@@ -33,21 +33,21 @@ CREATE TABLE doctor (
 CREATE TABLE temperatura (
   id serial PRIMARY KEY,
   paciente integer,
-  fecha datetime,
+  fecha TIMESTAMP,
   valor float
 );
 
 CREATE TABLE spo2 (
   id serial PRIMARY KEY,
   paciente integer,
-  fecha datetime,
+  fecha TIMESTAMP,
   valor float
 );
 
 CREATE TABLE ritmo_cardiaco (
   id serial PRIMARY KEY,
   paciente integer,
-  fecha datetime,
+  fecha TIMESTAMP,
   valor float
 );
 
